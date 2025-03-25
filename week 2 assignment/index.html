@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML Lists, Images, Tables & Forms</title>
+        </head>
+        <body>
+            <h2>Ordered Lists</h2>
+            <ol type="i">
+                <li>Asia </li>
+                <li>Africa</li>
+                <li>Europe</li>
+                <li>North America</li>
+            </ol>
+            <h2>External Image</h2>
+            <img src="https://images.pexels.com/photos/2660262/pexels-photo-2660262.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image of Africa" height="350" width="350">
+            
+            <h2>Contact</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Emails</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Peter Mwangi</td>
+                        <td>Berlin, Europe</td>
+                        <td>07908796430</td>
+                        <td>petermwangi@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>John Kaluma</td>
+                        <td>Nairobi, Africa</td>
+                        <td>00023415678</td>
+                        <td>johnkaluma@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Ester Philo</td>
+                        <td>Bangkok, Asia</td>
+                        <td>08675654554</td>
+                        <td>esterphilo@yahoo.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Registration Forms</h2>
+            <!-- start of form -->
+            <form action="#" method="post">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required placeholder="Your Full Name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="kwambiloo@example.com">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+                <br><br>
+                <label for="date">date:</label>
+                <input type="date" id="date" name="date" placeholder="date">
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="male"> Male
+                <br><br>
+                <label for="Movies">Movies</label>
+                <input type="checkbox" name="movies" value="the night agent"> Series
+                <input type="checkbox" name="movies" value="finding jacob"> Thriller
+                <input type="checkbox" name="movies" value="how to ruin chrismas"> Single
+                <input type="checkbox" name="movies" value="the residence"> Investigative
+                <br><br>
+                <label>Country</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="India">India</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Texas">Texas</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+                <input type="reset" value="Cancel/Reset">
+            </form>
+           <!-- end of form -->
+           
+           <!-- Multimedia Elements -->
+    <h2>Multimedia Elements</h2>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="https://pixabay.com/music/upbeat-video-game-boss-fiight-259885/" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <h3>Video</h3>
+    <video width="500" controls>
+        <source src="https://cdn.pixabay.com/video/2023/08/19/176796-856056418_tiny.mp4" type="video/mp4">
+    </video>
+        </body>
+    </html>
